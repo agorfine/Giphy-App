@@ -9,7 +9,8 @@ class App extends Component {
     super(props)
     this.state = {
       search: '',
-      data: {}
+      data: {},
+      loadPage: false
     }
     this.handleSubmit = this.handleSubmit.bind(this)
     this.setTheState = this.setTheState.bind(this)
@@ -39,6 +40,7 @@ class App extends Component {
       
         <GifList 
             theGif= {this.state.data.data}
+            loadPage={ this.state.loadPage }
         />
       
       </div>

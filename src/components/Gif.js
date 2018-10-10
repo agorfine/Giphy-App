@@ -12,6 +12,7 @@ class Gif extends Component {
 	handleSubmit(e) {
 		e.preventDefault()
 		this.getData()
+		this.loadPage()
 	}
 
 	handleChange(e) {
@@ -35,7 +36,15 @@ class Gif extends Component {
       })
   }
 
+  	loadPage () {
+  		this.props.setAppState({ loadPage: true })
+		setTimeout(() => {
+			this.props.setAppState({ loadPage: false })
+		}, 2000)
+	}
+
   render () {
+
   	return(
   		<form className= 'form'>
             <input className= 'input'
