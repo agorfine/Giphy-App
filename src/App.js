@@ -38,7 +38,7 @@ class App extends Component {
         />
       
         <GifList 
-            gif= {this.state.data.data}
+            theGif= {this.state.data.data}
         />
       
       </div>

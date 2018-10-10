@@ -22,3 +22,52 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page {
+  margin:auto;
+  text-align: center;
+}
+
+.title {
+  margin:auto;
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.form {
+  margin:auto;
+  margin-top: 40px;
+  width: 50%;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  height: 20px;
+  width: 150px;
+  padding: 4px;
+}
+
+.button {
+  height: auto;
+  width: auto;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+.img {
+  border: none;
+  margin-top: 50px;
+  height: 300px;
+  width: 400px;
+}
