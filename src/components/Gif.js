@@ -40,7 +40,7 @@ class Gif extends Component {
   		this.props.setAppState({ loadPage: true })
 		setTimeout(() => {
 			this.props.setAppState({ loadPage: false })
-		}, 2000)
+		}, 700)
 	}
 
   render () {

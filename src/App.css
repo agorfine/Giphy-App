@@ -23,16 +23,6 @@
   to { transform: rotate(360deg); }
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
-.page {
-  margin:auto;
-  text-align: center;
-}
 
 .title {
   margin:auto;
