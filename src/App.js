@@ -30,9 +30,9 @@ class App extends Component {
   render() {
     return (
       <div className = "page">
-        
-        <h1 className= "title">Giphy Search App</h1>
-        
+        <div className = 'head'>
+          <h1 className= "title">Giphy Search App</h1>
+        </div>
         <Gif 
             getSearch = { this.handleSubmit }
             setAppState = { this.setTheState }
